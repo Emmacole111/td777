@@ -13,7 +13,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://www.td777game.com.pk/sitemap.xml",
-    host: "https://www.td777game.com.pk",
+    sitemap: "https://www.td777download.com.pk/sitemap.xml",
+    host: "https://www.td777download.com.pk",
   }
 }

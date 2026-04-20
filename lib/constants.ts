@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: "TD777 Game",
   tagline: "Pakistan's #1 Real Money Gaming App",
-  domain: "https://www.td777game.com.pk",
+  domain: "https://www.td777download.com.pk",
   apkVersion: "V2.1.0",
   apkSize: "42MB",
   apkRequirement: "Android 5.0+",
@@ -205,7 +205,7 @@ export const FAQ_LIST = [
   {
     question: "How to contact TD777 customer support?",
     answer:
-      "You can contact TD777 support 24/7 via WhatsApp at our official number, through Telegram @td777game, or by emailing contact@td777game.com.pk. Average response time is under 30 minutes.",
+      "You can contact TD777 support 24/7 via WhatsApp at our official number, through Telegram @td777game, or by emailing td777game85@gmail.com. Average response time is under 30 minutes.",
   },
 ]
 

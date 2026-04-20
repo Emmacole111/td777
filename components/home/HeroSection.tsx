@@ -145,6 +145,18 @@ export function HeroSection() {
               </Link>
             </div>
 
+            {/* Hero preview image */}
+            <div className="mb-8 flex justify-center lg:justify-start">
+              <Image
+                src="/images/td777-hero-preview.png"
+                alt="TD777 Game app preview – Rs111 bonus, 8,241 players online, V2.1.0"
+                width={420}
+                height={420}
+                className="w-full max-w-sm lg:max-w-md rounded-2xl"
+                priority
+              />
+            </div>
+
             {/* Trust badges */}
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start" role="list" aria-label="Trust signals">
               {trustBadges.map((b) => {
