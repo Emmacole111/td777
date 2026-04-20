@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 import { blogData } from "@/lib/blog-data"
 
-const baseUrl = "https://www.td777download.com.pk"
+const baseUrl = "https://td777download.com.pk"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [

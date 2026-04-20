@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: "TD777 Game",
   tagline: "Pakistan's #1 Real Money Gaming App",
-  domain: "https://www.td777download.com.pk",
+  domain: "https://td777download.com.pk",
   apkVersion: "V2.1.0",
   apkSize: "42MB",
   apkRequirement: "Android 5.0+",
