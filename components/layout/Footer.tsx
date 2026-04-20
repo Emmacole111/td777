@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Shield } from "lucide-react"
-import { SITE_CONFIG } from "@/lib/constants"
+
 
 const quickLinks = [
   { label: "Home", href: "/" },
