@@ -145,14 +145,14 @@ export function HeroSection() {
               </Link>
             </div>
 
-            {/* Hero preview image */}
-            <div className="mb-8 flex justify-center lg:justify-start">
+            {/* Hero preview image — mobile only */}
+            <div className="block lg:hidden mb-8 flex justify-center">
               <Image
                 src="/images/td777-hero-preview.png"
                 alt="TD777 Game app preview – Rs111 bonus, 8,241 players online, V2.1.0"
-                width={420}
-                height={420}
-                className="w-full max-w-sm lg:max-w-md rounded-2xl"
+                width={380}
+                height={380}
+                className="w-full max-w-xs rounded-2xl mx-auto"
                 priority
               />
             </div>
@@ -179,8 +179,8 @@ export function HeroSection() {
             </div>
           </div>
 
-          {/* Right: Floating screenshot fan */}
-          <div className="relative order-1 lg:order-2 flex justify-center items-center py-8">
+          {/* Right: Floating screenshot fan — desktop only */}
+          <div className="hidden lg:flex relative order-1 lg:order-2 justify-center items-center py-8">
 
             {/* Ambient glow */}
             <div
